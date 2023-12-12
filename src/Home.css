@@ -1,0 +1,87 @@
+.homemain{
+    margin-top:20px;
+}
+.back{
+    height: 400px;
+    width: 100%;
+    border:1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url("https://wallpapertag.com/wallpaper/full/8/a/3/132233-new-4k-resolution-wallpaper-3840x2160-for-1080p.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.back h3{
+    padding: 40px;
+    height: 50px;
+    width: 50%;
+    color: white;
+    text-shadow: 1px 2px black;
+}
+button{
+    height: 40px;
+    width: 130px;
+    border-radius: 5px;
+    box-shadow: 1px 1px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-left: 40px;
+}
+button:hover{
+    background-color:skyblue;
+    transition: 0.5s ease-in-out;
+    font-weight: bold;
+}
+.posts{
+    padding: 30px;
+    margin-top: 30px;
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto ;
+    align-items: center;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+.post{
+    height: auto;
+    width:600px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: blanchedalmond;
+}
+.post h1{
+    text-shadow: 1px 1px ;
+}
+.post h3{
+    text-shadow: 1px 1px;
+}
+.delete{
+    float: right;
+    background-color: red;
+    color: white;
+    height: 30px;
+    width: 70px;
+}
+.blogstitle{
+    text-shadow: 1px 2px ;
+}
+@media screen and (max-width: 768px){
+ .homemain{
+    display: flex;
+    flex-direction: column;
+ }   
+ .posts{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+ }
+ .back{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+}

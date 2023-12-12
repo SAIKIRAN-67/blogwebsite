@@ -1,0 +1,53 @@
+.text{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.title{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.main{
+    height: 70vh;
+    width: 400px;
+    padding: 30px;
+    color: black;
+    text-shadow: 2px 2px  white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+textarea{
+    background-color: inherit;
+    color: black;
+}
+.Main{
+    height: 100vh;
+    width: 100%;
+    background: url("https://wallpapercave.com/wp/wp1843759.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+input{
+    background: inherit;
+    color: black
+}
+.titleinput{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    color: black;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submitbutton{
+    margin-top: 20px;
+}
